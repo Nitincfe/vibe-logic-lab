@@ -62,27 +62,35 @@ st.sidebar.write(
     "and flying discs documented between **June 1947 and July 1968**."
 )
 
-# Supplemental Discovery Note (Observational Tone)
-st.sidebar.info(
-    "📝 **Data Note:** While the archive is primarily cataloged through 1968, "
-    "this analysis identified supplemental reports from the early 1970s "
-    "physically contained within the Section 10 folder."
+# 2. Sidebar Context & Filters
+st.sidebar.markdown("### 📂 Case File: 62-HQ-83894")
+
+# Keep the intro short and visible
+st.sidebar.write(
+    "Investigative records of **Unidentified Flying Objects** "
+    "documented between **June 1947 and July 1968**."
 )
 
-with st.sidebar.expander("Read Full File Description"):
-    # Verbatim Official Description (Part 2)
+# Move all detailed notes and discoveries into a single drop-down
+with st.sidebar.expander("Archive Details & Discovery Notes"):
+    st.info(
+        "📝 **Discovery Note:** While officially cataloged through 1968, "
+        "this analysis identified supplemental reports from the early 1970s "
+        "located within the Section 10 folder."
+    )
+    
     st.write(
         "The records include high-profile incident accounts, photographic evidence "
         "from sites like **Oak Ridge, TN**, and technical proposals regarding potential "
-        "propulsion systems. Additional topics include convention programs, researcher "
-        "accounts, and extensive media coverage from the period."
+        "propulsion systems. Additional topics include researcher accounts and media coverage."
     )
+    
     st.markdown("---")
-    # Verbatim Integrity Note
-    st.write(
+    
+    st.caption(
         "**Note on Completeness:** This file is partially posted on the FBI Vault with "
-        "more redactions and some pages missing. Included here is the **complete case file** "
-        "with several newly declassified pages and only minor redactions."
+        "more redactions. Included here is the **complete Section 10** archive with "
+        "several newly declassified pages."
     )
 
 st.sidebar.divider()
