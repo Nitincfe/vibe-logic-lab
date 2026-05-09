@@ -52,24 +52,40 @@ def load_data():
 
 df = load_data()
 
-# 2. Sidebar Filters
-# --- OFFICIAL DESCRIPTION ---
-st.sidebar.markdown("### About this Archive")
+# 2. Sidebar Context & Filters
+st.sidebar.markdown("### 📂 Case File: 62-HQ-83894")
+
+# Verbatim Official Description (Part 1)
 st.sidebar.write(
     "The FBI's **62-HQ-83894** case file includes investigative records, "
-    "eyewitness testimonies, and public reports concerning UFOs documented "
-    "between June 1947 and July 1968. "
+    "eyewitness testimonies, and public reports concerning **Unidentified Flying Objects** "
+    "and flying discs documented between **June 1947 and July 1968**."
+)
+
+# Supplemental Discovery Note (Observational Tone)
+st.sidebar.info(
+    "📝 **Data Note:** While the archive is primarily cataloged through 1968, "
+    "this analysis identified supplemental reports from the early 1970s "
+    "physically contained within the Section 10 folder."
 )
 
 with st.sidebar.expander("Read Full File Description"):
+    # Verbatim Official Description (Part 2)
     st.write(
-        "This archive includes high-profile incident accounts, photographic evidence "
-        "from sites like Oak Ridge, TN, and technical proposals regarding potential "
-        "propulsion systems. While the official FBI Vault contains redacted versions, "
-        "this dashboard utilizes a more complete version of Section 10 with newly "
-        "declassified pages and minimal redactions."
+        "The records include high-profile incident accounts, photographic evidence "
+        "from sites like **Oak Ridge, TN**, and technical proposals regarding potential "
+        "propulsion systems. Additional topics include convention programs, researcher "
+        "accounts, and extensive media coverage from the period."
+    )
+    st.markdown("---")
+    # Verbatim Integrity Note
+    st.write(
+        "**Note on Completeness:** This file is partially posted on the FBI Vault with "
+        "more redactions and some pages missing. Included here is the **complete case file** "
+        "with several newly declassified pages and only minor redactions."
     )
 
+st.sidebar.divider()
 
 st.sidebar.header("Typology Filters")
 
