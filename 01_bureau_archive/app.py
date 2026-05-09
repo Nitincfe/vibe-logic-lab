@@ -53,6 +53,24 @@ def load_data():
 df = load_data()
 
 # 2. Sidebar Filters
+# --- OFFICIAL DESCRIPTION ---
+st.sidebar.markdown("### About this Archive")
+st.sidebar.write(
+    "The FBI's **62-HQ-83894** case file includes investigative records, "
+    "eyewitness testimonies, and public reports concerning UFOs documented "
+    "between June 1947 and July 1968. "
+)
+
+with st.sidebar.expander("Read Full File Description"):
+    st.write(
+        "This archive includes high-profile incident accounts, photographic evidence "
+        "from sites like Oak Ridge, TN, and technical proposals regarding potential "
+        "propulsion systems. While the official FBI Vault contains redacted versions, "
+        "this dashboard utilizes a more complete version of Section 10 with newly "
+        "declassified pages and minimal redactions."
+    )
+
+
 st.sidebar.header("Typology Filters")
 
 shapes = df['craft_shape'].dropna().unique() if 'craft_shape' in df.columns else []
