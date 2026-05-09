@@ -6,7 +6,7 @@ import os
 
 # Page Config
 st.set_page_config(layout="wide", page_title="Case 001: FBI UFO Archive")
-st.title("Case 001: 1960s FBI Sightings Archive")
+st.title("Case 001: Mid-Century FBI UFO Archive")
 
 # 1. Load Data
 @st.cache_data
@@ -106,7 +106,7 @@ with tab1:
         st.warning("Still waiting for valid coordinates...")
 
 with tab2:
-    st.subheader("The NLP Contrast")
+    st.subheader("Accounts vs. Official Reports")
     for index, row in filtered_df.iterrows():
         loc = row.get('location', 'Unknown')
         date = row.get('date', 'Unknown')
