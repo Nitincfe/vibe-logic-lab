@@ -1,0 +1,158 @@
+[
+{
+"date": "April 24, 1964",
+"location": "Socorro, New Mexico",
+"coordinates": {
+"latitude": 34.0584,
+"longitude": -106.8915
+},
+"witness_type": "Police",
+"craft_shape": "Egg-shaped",
+"craft_color_lights": "Polished metal, radiating heat and light",
+"witness_quote_summary": "Officer Lonnie Zamora observed a landed egg-shaped craft and two small figures in white suits; the craft later ascended with a burst of light.",
+"fbi_response_summary": "The Bureau maintains no information identifiable with the correspondent and refers matters to the Air Force."
+},
+{
+"date": "January 17, 1967",
+"location": "Chesapeake, Virginia",
+"coordinates": {
+"latitude": 36.7682,
+"longitude": -76.2875
+},
+"witness_type": "Civilian",
+"craft_shape": "Oblong-shaped",
+"craft_color_lights": "Glass-like substance, transparent",
+"witness_quote_summary": "Witness James C. Collins claimed to be taken into a transparent oblong craft manned by small human-like creatures in t-shirts and trousers.",
+"fbi_response_summary": "Standard dismissal stating UFO investigations are not within the investigative jurisdiction of the FBI; referred to the Air Force."
+},
+{
+"date": "November 1944",
+"location": "Black Forest, Austria",
+"coordinates": {
+"latitude": 48.0,
+"longitude": 8.2
+},
+"witness_type": "Military Pilot",
+"craft_shape": "Saucer/Disk",
+"craft_color_lights": "Metallic, radio controlled, jet engines around the exterior",
+"witness_quote_summary": "Former Luftwaffe pilot Paul L. Peyerl reported photographing a 21-foot diameter saucer craft developed by German engineers in the Black Forest.",
+"fbi_response_summary": "Information submitted to the Bureau for consideration of transmittal to the U.S. Air Force."
+},
+{
+"date": "August 21, 1974",
+"location": "Milwaukee, Wisconsin",
+"coordinates": {
+"latitude": 43.0389,
+"longitude": -87.9065
+},
+"witness_type": "Military/Police",
+"craft_shape": "Jagged/Metallic",
+"craft_color_lights": "Metallic substance and color, jagged on one side",
+"witness_quote_summary": "A 13x8x5 inch metallic object with an internal heat source fell from the sky and was recovered by local police.",
+"fbi_response_summary": "Relayed information to the National Military Command Center and suggested contact with the Milwaukee Police Department."
+},
+{
+"date": "March 28, 1966",
+"location": "Portage County, Ohio",
+"coordinates": {
+"latitude": 41.1681,
+"longitude": -81.1912
+},
+"witness_type": "Police",
+"craft_shape": "Disk",
+"craft_color_lights": "Brilliantly lighted",
+"witness_quote_summary": "Police followed a brilliantly lighted saucer-shaped object for 85 miles across the Ohio/Pennsylvania border.",
+"fbi_response_summary": "The FBI stated that the matter is outside their jurisdiction and the photograph mentioned did not represent FBI employees."
+},
+{
+"date": "December 7, 1963",
+"location": "Moorestown, New Jersey",
+"coordinates": {
+"latitude": 39.9946,
+"longitude": -74.9513
+},
+"witness_type": "Civilian",
+"craft_shape": "Unknown",
+"craft_color_lights": "Exploded in mid-air",
+"witness_quote_summary": "Witness Edward A. Stewart Jr. claimed an unusual object laying air mines was responsible for the mid-air explosion of Pan American Flight N709PA.",
+"fbi_response_summary": "The FBI referred the witness to reports from the Civil Aeronautics Board (CAB) attributing the crash to lightning."
+},
+{
+"date": "1945",
+"location": "Combat missions (General Harlingen, TX context)",
+"coordinates": {
+"latitude": 26.1906,
+"longitude": -97.6961
+},
+"witness_type": "Military",
+"craft_shape": "Unknown",
+"craft_color_lights": "Unidentified flying objects",
+"witness_quote_summary": "W.R. Hanawalt reported seeing unidentified flying objects during combat missions in 1945 and suggested a 'cobalt ray' was involved.",
+"fbi_response_summary": "Bureau indices contain no information identifiable with the correspondent; files maintained as confidential."
+},
+{
+"date": "August 15, 1966",
+"location": "Milan, Michigan",
+"coordinates": {
+"latitude": 42.0837,
+"longitude": -83.6841
+},
+"witness_type": "Civilian",
+"craft_shape": "Point of Light",
+"craft_color_lights": "Blue-yellow bars of light, like neon lamps",
+"witness_quote_summary": "Intriguing blue-yellow lights described as 'neon lamps dangling in the sky' were spotted 15 miles south of Ann Arbor.",
+"fbi_response_summary": "Information made a matter of record; standard referral to the Air Force."
+},
+{
+"date": "March 1966",
+"location": "Valdese, North Carolina",
+"coordinates": {
+"latitude": 35.741,
+"longitude": -81.5623
+},
+"witness_type": "Civilian",
+"craft_shape": "Unknown",
+"craft_color_lights": "Glowing blue thing",
+"witness_quote_summary": "A 'glowing blue thing' exploded and lit up the town like a giant flashbulb.",
+"fbi_response_summary": "The FBI noted the report but deferred to Air Force Project Blue Book conclusions."
+},
+{
+"date": "April 14, 1967",
+"location": "Victoria, British Columbia",
+"coordinates": {
+"latitude": 48.4284,
+"longitude": -123.3656
+},
+"witness_type": "Civilian",
+"craft_shape": "Unknown",
+"craft_color_lights": "Blue and green light",
+"witness_quote_summary": "Witnesses observed a red and green light hovering over a tall tree that then sped away.",
+"fbi_response_summary": "Enclosed standard materials on the FBI and acknowledged receipt of the report."
+},
+{
+"date": "October 1967",
+"location": "Dewline (Distant Early Warning Line)",
+"coordinates": {
+"latitude": 66.0,
+"longitude": -120.0
+},
+"witness_type": "Anonymous Informant",
+"craft_shape": "Unknown",
+"craft_color_lights": "Unknown",
+"witness_quote_summary": "Informant claimed a UFO was detected over the 'Dewline' and shot down, with extraterrestrials attempting to recover it.",
+"fbi_response_summary": "Document contained no recommendations or conclusions; distributed to Air Force and OSI."
+},
+{
+"date": "May 22, 1962",
+"location": "Africa",
+"coordinates": {
+"latitude": 0.0,
+"longitude": 20.0
+},
+"witness_type": "Anonymous Informant",
+"craft_shape": "Unknown",
+"craft_color_lights": "Protected by its force field",
+"witness_quote_summary": "An antimissile missile was allegedly fired at a UFO over Africa; the craft was reportedly protected by a force field.",
+"fbi_response_summary": "Standard intelligence distribution to military agencies."
+}
+]
