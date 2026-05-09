@@ -5,8 +5,8 @@ import json
 import os
 
 # Page Config
-st.set_page_config(layout="wide", page_title="Case 001: FBI UFO Archive")
-st.title("Case 001: Mid-Century FBI UFO Archive")
+st.set_page_config(layout="wide", page_title="Case 001: FBI File 62-HQ-83894 (Section 10)")
+st.title("Case 001: FBI File 62-HQ-83894 (Section 10)")
 
 # 1. Load Data
 @st.cache_data
