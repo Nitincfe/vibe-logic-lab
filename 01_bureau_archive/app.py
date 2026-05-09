@@ -52,45 +52,38 @@ def load_data():
 
 df = load_data()
 
-# 2. Sidebar Context & Filters
-st.sidebar.markdown("### 📂 Case File: 62-HQ-83894")
+# --- 2. SIDEBAR CONTEXT & FILTERS ---
+st.sidebar.header("📂 Case File: 62-HQ-83894")
 
-# Verbatim Official Description (Part 1)
-st.sidebar.write(
-    "The FBI's **62-HQ-83894** case file includes investigative records, "
-    "eyewitness testimonies, and public reports concerning **Unidentified Flying Objects** "
-    "and flying discs documented between **June 1947 and July 1968**."
-)
+# Short lead-in
+st.sidebar.write("Declassified investigative records of **Unidentified Flying Objects** (1947–1968).")
 
-# 2. Sidebar Context & Filters
-st.sidebar.markdown("### 📂 Case File: 62-HQ-83894")
-
-# Keep the intro short and visible
-st.sidebar.write(
-    "Investigative records of **Unidentified Flying Objects** "
-    "documented between **June 1947 and July 1968**."
-)
-
-# Move all detailed notes and discoveries into a single drop-down
-with st.sidebar.expander("Archive Details & Discovery Notes"):
-    st.info(
-        "📝 **Discovery Note:** While officially cataloged through 1968, "
-        "this analysis identified supplemental reports from the early 1970s "
-        "located within the Section 10 folder."
+# Expander 1: Verbatim Official Description
+with st.sidebar.expander("Archive Details"):
+    st.write(
+        "The FBI's **62-HQ-83894** case file includes investigative records, "
+        "eyewitness testimonies, and public reports concerning Unidentified Flying Objects "
+        "and flying discs documented between **June 1947 and July 1968**."
     )
-    
     st.write(
         "The records include high-profile incident accounts, photographic evidence "
         "from sites like **Oak Ridge, TN**, and technical proposals regarding potential "
-        "propulsion systems. Additional topics include researcher accounts and media coverage."
+        "propulsion systems. Additional topics include convention programs, researcher "
+        "accounts, and extensive media coverage from the period."
     )
-    
     st.markdown("---")
-    
     st.caption(
         "**Note on Completeness:** This file is partially posted on the FBI Vault with "
-        "more redactions. Included here is the **complete Section 10** archive with "
-        "several newly declassified pages."
+        "more redactions and some pages missing. Included here is the **complete case file** "
+        "with several newly declassified pages and only minor redactions."
+    )
+
+# Expander 2: The Discovery Note
+with st.sidebar.expander("Discovery Note"):
+    st.info(
+        "🔍 **Supplemental Data:** While the official description catalogs through 1968, "
+        "this AI-powered analysis identified supplemental reports from the early 1970s "
+        "(up to **July 1974**) physically contained within the Section 10 folder."
     )
 
 st.sidebar.divider()
