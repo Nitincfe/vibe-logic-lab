@@ -137,3 +137,14 @@ with tab2:
             with col2:
                 st.markdown("**FBI Response:**")
                 st.warning(row.get('fbi_response_summary', 'No data provided.'))
+
+            
+            # --- THE ANOMALY NOTE ---
+            # Check if the date string contains a year after 1968
+            # This handles both strings and datetime objects gracefully
+            if any(yr in str(date) for yr in ["1969", "1970", "1971", "1972", "1973", "1974"]):
+                st.divider()
+                st.caption(
+                    "🔍 **Archival Note:** While official metadata catalogs this file through 1968, "
+                    "this entry was identified as a supplemental record located within the Section 10 archive."
+                )
