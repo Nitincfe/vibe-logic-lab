@@ -2,6 +2,7 @@ import streamlit as st
 import pydeck as pdk
 import pandas as pd
 import json
+import os
 
 # Page Config
 st.set_page_config(layout="wide", page_title="Case 001: FBI UFO Archive")
@@ -10,9 +11,12 @@ st.title("Case 001: 1960s FBI Sightings Archive")
 # 1. Load Data
 @st.cache_data
 def load_data():
-    with open("extracted_sightings.json", "r") as f:
-        data = json.load(f)
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    file_path = os.path.join(current_dir, "extracted_sightings.json")
     
+    with open(file_path, "r") as f:
+        data = json.load(f)
+
     df = pd.DataFrame(data)
     
     # The Ultimate Coordinate Parser
